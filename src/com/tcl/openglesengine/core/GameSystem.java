@@ -4,11 +4,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.LinkedList;
 
-import ljh.game.AnimationManager;
-import ljh.game.geom.RectBox;
-import ljh.opengl.GLEx;
-import ljh.opengl.LColor;
-import ljh.opengl.command.GLFont;
+import com.tcl.openglesengine.game.AnimationManager;
+import com.tcl.openglesengine.game.geom.RectBox;
+import com.tcl.openglesengine.opengl.GLEx;
+import com.tcl.openglesengine.opengl.LColor;
+import com.tcl.openglesengine.opengl.command.GLFont;
 import android.content.Context;
 import android.content.res.AssetManager;
 

@@ -4,7 +4,7 @@ import java.nio.FloatBuffer;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import ljh.opengl.command.GLFont;
+import com.tcl.openglesengine.opengl.command.GLFont;
 
 
 import android.graphics.Bitmap;

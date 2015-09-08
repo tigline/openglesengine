@@ -5,9 +5,9 @@ import java.util.HashMap;
 
 import android.R.integer;
 
-import ljh.game.ISprite;
-import ljh.opengl.GLEx;
-import ljh.opengl.LTexture;
+import com.tcl.openglesengine.game.ISprite;
+import com.tcl.openglesengine.opengl.GLEx;
+import com.tcl.openglesengine.opengl.LTexture;
 
 public abstract class Screen {
 	

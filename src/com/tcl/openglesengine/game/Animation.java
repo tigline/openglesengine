@@ -1,9 +1,9 @@
-package com.tcl.openglesegine.game;
+package com.tcl.openglesengine.game;
 
-import ljh.game.core.LTimer;
-import ljh.opengl.GLEx;
-import ljh.opengl.LTexture;
-import ljh.opengl.LTextureUtils;
+import com.tcl.openglesengine.opengl.GLEx;
+import com.tcl.openglesengine.opengl.LTexture;
+import com.tcl.openglesengine.opengl.LTextureUtils;
+import com.tcl.openglesengine.core.LTimer;
 
 public class Animation {
  private LTexture[] images;

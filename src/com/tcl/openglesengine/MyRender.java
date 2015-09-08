@@ -2,11 +2,11 @@ package com.tcl.openglesengine;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import ljh.game.core.GameSystem;
-import ljh.game.core.SystemTimer;
-import ljh.game.geom.RectBox;
-import ljh.opengl.GLEx;
-import ljh.opengl.GLHelper;
+import com.tcl.openglesengine.core.GameSystem;
+import com.tcl.openglesengine.core.SystemTimer;
+import com.tcl.openglesengine.game.geom.RectBox;
+import com.tcl.openglesengine.opengl.GLEx;
+import com.tcl.openglesengine.opengl.GLHelper;
 
 
 import android.opengl.GLSurfaceView.Renderer;

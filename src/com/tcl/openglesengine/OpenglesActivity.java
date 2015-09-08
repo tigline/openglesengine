@@ -1,6 +1,6 @@
 package com.tcl.openglesengine;
 
-import ljh.game.core.GameSystem;
+import com.tcl.openglesengine.core.GameSystem;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.opengl.GLSurfaceView;

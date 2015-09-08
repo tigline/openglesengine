@@ -2,8 +2,8 @@ package com.tcl.openglesengine.opengl;
 
 import java.util.HashMap;
 
-import ljh.game.core.GameSystem;
-import ljh.game.core.Resources;
+import com.tcl.openglesengine.core.GameSystem;
+import com.tcl.openglesengine.core.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 

@@ -3,7 +3,7 @@ package com.tcl.openglesengine.opengl;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Bitmap.Config;
-import ljh.game.core.Resources;
+import com.tcl.openglesengine.core.Resources;
 
 public class LTextureUtils {
 	public static LTexture[] getSplitTexture(String filename,int width,int height)

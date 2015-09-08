@@ -1,4 +1,4 @@
-package com.tcl.openglesegine.game;
+package com.tcl.openglesengine.game;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

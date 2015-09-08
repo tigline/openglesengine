@@ -1,8 +1,8 @@
-package com.tcl.openglesegine.game;
+package com.tcl.openglesengine.game;
 
-import ljh.game.geom.RectBox;
-import ljh.opengl.GLEx;
-import ljh.opengl.LTexture;
+import com.tcl.openglesengine.game.geom.RectBox;
+import com.tcl.openglesengine.opengl.GLEx;
+import com.tcl.openglesengine.opengl.LTexture;
 
 public class Sprite implements ISprite{
 

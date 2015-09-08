@@ -1,11 +1,11 @@
-package com.tcl.openglesegine.game;
+package com.tcl.openglesengine.game;
 
 
 import java.util.ArrayList;
 import java.util.Vector;
 
-import ljh.game.geom.RectBox;
-import ljh.opengl.GLEx;
+import com.tcl.openglesengine.game.geom.RectBox;
+import com.tcl.openglesengine.opengl.GLEx;
 
 public class Sprites {
 	
