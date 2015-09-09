@@ -101,7 +101,7 @@ public class GLEx {
 	public void delete(int textureID) {
 		if (textureID != 0) {
 			gl.glDeleteTextures(1, new int[] { textureID }, 0);
-			System.out.println("Delete Texture ��" + textureID);
+			System.out.println("Delete Texture ：" + textureID);
 		}
 	}
 

@@ -1,5 +1,7 @@
 package com.tcl.openglesengine.game;
 
+import android.content.Context;
+
 import com.tcl.openglesengine.game.geom.RectBox;
 import com.tcl.openglesengine.opengl.GLEx;
 import com.tcl.openglesengine.opengl.LTexture;
@@ -12,12 +14,13 @@ public class Sprite implements ISprite{
 	private boolean visible = true;
 	private Animation animation;
 	private RectBox rectBox;
-	public Sprite(String filename)
+	public Sprite(Context context,String filename)
 	{
-		image = new LTexture(filename);
+		image = new LTexture(context,filename);
+		setImage(image);
 	}
 	
-	public void setLocation(float x, float y) {
+	public void setPosition(float x, float y) {
 		// TODO Auto-generated method stub
 		this.x = x;
 		this.y = y;

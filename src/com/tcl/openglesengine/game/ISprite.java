@@ -7,7 +7,7 @@ import com.tcl.openglesengine.opengl.LTexture;
 
 public interface ISprite {
 	
-	void setLocation(float x,float y);
+	void setPosition(float x,float y);
 	void setImage(LTexture image);
 	void setSize(float width,float height);
 	float getWidth();

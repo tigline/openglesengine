@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 import com.tcl.openglesengine.core.GameSystem;
 import com.tcl.openglesengine.core.Resources;
+
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 
@@ -44,6 +46,9 @@ public class LTexture {
 		this.mBitmap = bitmap;
 	}
 
+	public LTexture(Context context,String filename) {
+		this(Resources.getBitmap(context,filename));
+	}
 	public LTexture(String filename) {
 		this(Resources.getBitmap(filename));
 	}

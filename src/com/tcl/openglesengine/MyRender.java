@@ -4,15 +4,33 @@ import javax.microedition.khronos.opengles.GL10;
 
 import com.tcl.openglesengine.core.GameSystem;
 import com.tcl.openglesengine.core.SystemTimer;
+import com.tcl.openglesengine.game.Sprite;
 import com.tcl.openglesengine.game.geom.RectBox;
 import com.tcl.openglesengine.opengl.GLEx;
 import com.tcl.openglesengine.opengl.GLHelper;
 
 
+import android.content.Context;
 import android.opengl.GLSurfaceView.Renderer;
 import android.opengl.GLU;
 
 public class MyRender implements Renderer{
+
+	Sprite sprite = null;
+	Sprite sprite1 = null;
+	/**
+	 * @param openglesActivity
+	 */
+	public MyRender() {
+		
+		
+	}
+	public MyRender(Context context) {
+		
+		sprite = new Sprite(context,"assets/circle.png");
+		sprite1 = new Sprite(context,"assets/circle.png");
+	}
+
 
 	public void onDrawFrame(GL10 gl) {
 		// TODO Auto-generated method stub		
@@ -23,6 +41,15 @@ public class MyRender implements Renderer{
 		GameSystem.update(SystemTimer.elapsedTime);
 		
 		GameSystem.paint(glex);
+		sprite.setPosition(540.0f, 260.0f);
+		sprite.setSize(437.0f, 437.0f);
+		sprite.draw(glex);
+		
+		sprite1.setPosition(340.0f, 160.0f);
+		sprite1.setSize(437.0f, 437.0f);
+		sprite1.draw(glex);
+
+		
 		GLHelper.disableBlend(gl);
 		
 		

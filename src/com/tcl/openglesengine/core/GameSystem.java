@@ -22,6 +22,14 @@ public class GameSystem {
 	public static Screen CurrentScreen = null;
 	public static LinkedList<Screen> screenList = new LinkedList<Screen>();
 	private static LinkedList<Runnable> DrawingHandle = new LinkedList<Runnable>();
+	//private static GameSystem instance_ = new GameSystem(context);
+	
+    //public static GameSystem getInstance()  {       return instance_;   }
+    
+	public GameSystem(Context context){
+		assetManager = context.getResources().getAssets();
+	}
+	
 	public static void Initializing()
 	{}
 	public static void setScreen(Screen screen)

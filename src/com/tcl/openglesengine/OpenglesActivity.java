@@ -17,7 +17,7 @@ public class OpenglesActivity extends Activity {
         onMain();
         
         GLSurfaceView glSurfaceView = new GLSurfaceView(this);
-        glSurfaceView.setRenderer(new MyRender());
+        glSurfaceView.setRenderer(new MyRender(this));
         setContentView(glSurfaceView);
         GameSystem.context = getApplicationContext();
         GameSystem.assetManager = getAssets();
